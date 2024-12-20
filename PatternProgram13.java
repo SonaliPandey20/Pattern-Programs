@@ -17,7 +17,7 @@ public class PatternProgram13
                 }
                 else
                 {
-                    System.out.print(y +" ");
+                    System.out.print(y +"  ");
                 }
                 x=x+n;
                 y=y+n;
