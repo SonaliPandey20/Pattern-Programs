@@ -1,17 +1,17 @@
-public class PatternProgram27 
+public class PatternProgram30 
 {
     public static void main(String[] args)
     {
         int n = 5;
-        char ch = 'A';
+        char ch='A';
         for (int i = 1; i <= n; i++)
         {
             for (int j = 1; j <= n; j++)
             {
                 System.out.print(ch + " ");
+                ch++;
             }
-            ch++;
             System.out.println();
         }
-    }
+    }  
 }
